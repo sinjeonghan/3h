@@ -1,0 +1,38 @@
+git   계정
+ECLIPSE ENTERPRISE
+VISUAL STUDIO CODE
+NODE   설치시 NPM  설치
+
+Your environment has been set up for using Node.js 18.13.0 (x64) and npm.
+C:\Users\user>node -v
+v18.13.0
+C:\Users\user>npm init
+
+Press ^C at any time to quit.
+package name: (user) npm WARN init canceled
+npm notice
+npm notice New major version of npm available! 8.19.3 -> 9.4.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.4.0
+npm notice Run npm install -g npm@9.4.0 to update!
+npm notice
+
+C:\Users\user>npm install vue
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+
+added 21 packages, and audited 22 packages in 5s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\user>npm install -g @vue/cli c
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'c@1.1.1',
+npm WARN EBADENGINE   required: { node: '~12.16.2' },
+npm WARN EBADENGINE   current: { node: 'v18.13.0', npm: '8.19.3' }
+npm WARN EBADENGINE }
+npm WARN deprecated so
+
+
+C:\Users\user>vue init webpack  3h
