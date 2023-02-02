@@ -2,12 +2,13 @@ git   계정
 ECLIPSE ENTERPRISE
 VISUAL STUDIO CODE
 NODE   설치시 NPM  설치
+Naver : npm install vue =>   [Vue] Vue js 프로젝트 생성 및 시작하기(npm, node 설치) - velog
 
-Your environment has been set up for using Node.js 18.13.0 (x64) and npm.
+
 C:\Users\user>node -v
 v18.13.0
-C:\Users\user>npm init
 
+C:\Users\user>npm init
 Press ^C at any time to quit.
 package name: (user) npm WARN init canceled
 npm notice
@@ -17,22 +18,60 @@ npm notice Run npm install -g npm@9.4.0 to update!
 npm notice
 
 C:\Users\user>npm install vue
-npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
-
-added 21 packages, and audited 22 packages in 5s
-
-1 package is looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-
 C:\Users\user>npm install -g @vue/cli c
-npm WARN EBADENGINE Unsupported engine {
-npm WARN EBADENGINE   package: 'c@1.1.1',
-npm WARN EBADENGINE   required: { node: '~12.16.2' },
-npm WARN EBADENGINE   current: { node: 'v18.13.0', npm: '8.19.3' }
-npm WARN EBADENGINE }
-npm WARN deprecated so
+added 857 packages, and audited 858 packages in 2m
 
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
 
 C:\Users\user>vue init webpack  3h
+  Command vue init requires a global addon to be installed.
+  Please run npm i -g @vue/cli-init and try again.
+
+C:\Users\user>npm audit fix --force
+
+C:\Users\user>npm i -g @vue/cli-init
+Run `npm audit` for details.
+
+
+C:\Users\user>vue init webpack 3h
+
+? Project name y
+? Project description 3h FronteEnd Server
+? Author sjhan4648@naver,com
+? Vue build standalone
+? Install vue-router? Yes
+? Use ESLint to lint your code? Yes
+? Pick an ESLint preset Standard
+? Set up unit tests Yes
+? Pick a test runner jest
+? Setup e2e tests with Nightwatch? Yes
+? Should we run `npm install` for you after the project has been created? (recomm
+ended) npm
+
+   vue-cli · Generated "3h".
+
+
+# Installing project dependencies ...
+# ========================
+# Project initialization finished!
+# ========================
+
+To get started:
+
+  cd 3h
+  npm run dev
+C:\Users\user> cd 3h
+C:\Users\user>npm run dev
+  http://localhost:8080 화면 확인
+  
+C:\Users\user\3h>npx create-react-app 3h
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in C:\Users\user\3h\3h.
+
